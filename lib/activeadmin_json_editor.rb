@@ -1,2 +1,2 @@
-require "activeadmin"
-require "activeadmin/json_editor"
+require 'activeadmin'
+require 'activeadmin/json_editor'

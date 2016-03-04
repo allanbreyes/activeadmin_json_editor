@@ -1,11 +1,11 @@
 #-*- encoding: utf-8; tab-width: 2 -*-
-require "activeadmin/json_editor/version"
-require "activeadmin/resource_dsl"
+require 'activeadmin/json_editor/version'
+require 'activeadmin/resource_dsl'
 
 module ActiveAdmin
   module JsonEditor
     class Engine < ::Rails::Engine
-      config.assets.precompile += %w[img/jsoneditor-icons.png]
+      config.assets.precompile += %w(img/jsoneditor-icons.png)
 
       rake_tasks do
         task 'assets:precompile' do
