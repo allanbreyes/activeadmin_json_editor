@@ -7,15 +7,11 @@ Data shown by using jsoneditor.js from http://jsoneditoronline.org
 
 Add this line to your application's Gemfile:
 
-    gem 'activeadmin_json_editor'
+    gem 'activeadmin_json_editor', github: 'udacity/activeadmin_json_editor', branch: 'master'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install activeadmin_json_editor
 
 Include styles in "active_admin" initializer
 
