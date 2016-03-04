@@ -3,11 +3,11 @@ require 'activeadmin'
 
 module ActiveAdmin
   class ResourceDSL
-    def hstore_editor
+    def json_editor
       before_save do |object,args|
         request_namespace = object.class.name.underscore.gsub('/', '_')
         if params.key? request_namespace
-          object.class.columns_hash.select {|key,attr| attr.type == :hstore}.keys.each do |key|
+          object.class.columns_hash.select {|key,attr| attr.type == :json}.keys.each do |key|
             if params[request_namespace].key? key
               json_data = params[request_namespace][key]
               data = if json_data == 'null' or json_data.blank?

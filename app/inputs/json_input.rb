@@ -1,6 +1,6 @@
 #-*- encoding: utf-8; tab-width: 2 -*-
 
-class HstoreInput < Formtastic::Inputs::TextInput
+class JsonInput < Formtastic::Inputs::TextInput
   def to_html
     html = '<div class="jsoneditor-wrap">'
     current_value = @object.public_send method

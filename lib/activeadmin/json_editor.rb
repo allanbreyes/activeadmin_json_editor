@@ -1,9 +1,9 @@
 #-*- encoding: utf-8; tab-width: 2 -*-
-require "activeadmin/hstore_editor/version"
+require "activeadmin/json_editor/version"
 require "activeadmin/resource_dsl"
 
 module ActiveAdmin
-  module HstoreEditor
+  module JsonEditor
     class Engine < ::Rails::Engine
       config.assets.precompile += %w[img/jsoneditor-icons.png]
 
