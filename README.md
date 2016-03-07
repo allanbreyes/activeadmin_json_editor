@@ -7,7 +7,7 @@ Data shown by using jsoneditor.js from http://jsoneditoronline.org
 
 Add this line to your application's Gemfile:
 
-    gem 'activeadmin_json_editor', github: 'udacity/activeadmin_json_editor', branch: 'master'
+    gem 'activeadmin_json_editor', '~> 0.0.5'
 
 And then execute:
 
@@ -45,7 +45,7 @@ end
 
 ## Contributing
 
-1. Fork it ( http://github.com/wild-ex/activeadmin_json_editor/fork )
+1. Fork it ( http://github.com/udacity/activeadmin_json_editor/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
