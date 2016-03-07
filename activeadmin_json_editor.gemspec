@@ -4,8 +4,8 @@ require File.expand_path('../lib/activeadmin/json_editor/version', __FILE__)
 Gem::Specification.new do |spec|
   spec.name          = 'activeadmin_json_editor'
   spec.version       = ActiveAdmin::JsonEditor::VERSION
-  spec.authors       = ['wild']
-  spec.email         = ['wild.exe@gmail.com']
+  spec.authors       = ['allanbreyes']
+  spec.email         = ['allan@udacity.com']
   spec.summary       = 'add "json_input" field type to active_admin that allow to edit Postgresql json values'
   spec.description   = '"json_input" field allow to edit json value as json array with using jsoneditor.js from http://jsoneditoronline.org'
   spec.homepage      = 'https://github.com/wild-r/activeadmin_json_editor'
