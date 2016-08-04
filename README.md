@@ -36,6 +36,7 @@ ActiveAdmin.register User do
 	form do |f|
     f.inputs do
       f.input :settings, as: :json
+      f.input :other_settings, as: :jsonb
     end
 
     f.actions
