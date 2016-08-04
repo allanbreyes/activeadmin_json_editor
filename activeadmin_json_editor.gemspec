@@ -21,4 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'railties', '>= 3.0', '< 5.0'
   # spec.add_development_dependency "rake", "~> 0"
   # spec.add_dependency "active_admin", "~> 1.0.0"
+  spec.add_dependency 'ace-rails-ap'
 end
