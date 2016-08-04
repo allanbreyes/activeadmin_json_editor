@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.version       = ActiveAdmin::JsonEditor::VERSION
   spec.authors       = ['allanbreyes']
   spec.email         = ['allan@udacity.com']
-  spec.summary       = 'add "json_input" field type to active_admin that allow to edit Postgresql json values'
+  spec.summary       = 'add "json_input" and "jsonb_input" field type to active_admin that allow to edit Postgresql json and jsonb values'
   spec.description   = '"json_input" field allow to edit json value as json array with using jsoneditor.js from http://jsoneditoronline.org'
   spec.homepage      = 'https://github.com/wild-r/activeadmin_json_editor'
   spec.license       = 'MIT'
