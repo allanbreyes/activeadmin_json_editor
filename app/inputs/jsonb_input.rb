@@ -1,0 +1,3 @@
+class JsonbInput < JsonInput
+
+end

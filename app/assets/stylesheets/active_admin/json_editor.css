@@ -44,3 +44,21 @@
 .jsoneditor .search .frame {
   border-color: rgb(201, 208, 214);
 }
+
+
+/*
+ * Use text mode
+ */
+.jsoneditor-wrap textarea.text {
+    display: block;
+}
+.jsoneditor .menu button.separator {
+    color: black;
+    text-shadow: none;
+}
+.jsoneditor-contextmenu ul li button {
+    text-shadow: none;
+}
+form fieldset > ol > li.error .jsoneditor {
+    border: 1px solid #932419;
+}
