@@ -1,5 +1,7 @@
 # ActiveAdmin::JsonEditor
 
+[![Gem Version](https://badge.fury.io/rb/activeadmin_json_editor.svg)](https://badge.fury.io/rb/activeadmin_json_editor)
+
 "json_input" and "jsonb_input" field type to active_admin that allow to edit Postgresql json and jsonb values as json tree.
 Data shown by using jsoneditor.js from http://jsoneditoronline.org
 
@@ -7,7 +9,7 @@ Data shown by using jsoneditor.js from http://jsoneditoronline.org
 
 Add this line to your application's Gemfile:
 
-    gem 'activeadmin_json_editor', '~> 0.0.5'
+    gem 'activeadmin_json_editor', '~> 0.0.6'
 
 And then execute:
 
