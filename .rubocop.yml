@@ -1,0 +1,23 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/**/*'
+  DisplayCopNames: true
+
+Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: true
+  Max: 25
+
+Metrics/LineLength:
+  Enabled: true
+  Max: 100
+
+Metrics/MethodLength:
+  Enabled: true
+  Max: 15
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
