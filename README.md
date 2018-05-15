@@ -30,12 +30,12 @@ This Gem provides you formtastic input called :json to edit json data and parse 
 
 ```ruby
 ActiveAdmin.register User do
-	permit_params :settings
+  permit_params :settings
 
-	json_editor
+  json_editor
 
   # specify the type does not necessarily
-	form do |f|
+  form do |f|
     f.inputs do
       f.input :settings, as: :json
       f.input :other_settings, as: :jsonb
