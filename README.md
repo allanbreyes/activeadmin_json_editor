@@ -9,7 +9,7 @@ Data shown by using jsoneditor.js from http://jsoneditoronline.org
 
 Add this line to your application's Gemfile:
 
-    gem 'activeadmin_json_editor', '~> 0.0.8'
+    gem 'activeadmin_json_editor', '~> 0.0.10'
 
 And then execute:
 
