@@ -21,6 +21,7 @@ module ActiveAdmin
           nested_klass = object.class.reflect_on_association(_nested_key).class_name.constantize
           nested_klass.columns_hash.select { |_key, attr| attr.type.in? [:json, :jsonb] }.keys.each do |key|
             nested_attributes_with_index.each {|_index, nested_attributes|
+              next unless nested_attributes.respond_to?(:key)
               next unless nested_attributes.key? key
               json_data = nested_attributes[key]
               data = if json_data == 'null' || json_data.blank?
